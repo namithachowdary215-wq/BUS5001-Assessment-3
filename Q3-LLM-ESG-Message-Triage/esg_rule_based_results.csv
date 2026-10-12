@@ -1,0 +1,4 @@
+message_id,message,issue_category,urgency,sentiment,followup_required,recommended_team,escalation_reason,data_sensitivity_risk,brief_summary
+MSG001,"The air conditioning is running overnight in an empty office on Level 3, even though nobody is using the space.",ENERGY_WASTE,MEDIUM,NEGATIVE,Y,FACILITIES,,LOW,Rule-based classification using predefined keyword conditions.
+MSG002,"The recycling bins on the ground floor are repeatedly contaminated with general waste, and the problem has not been addressed.",WASTE_MANAGEMENT,MEDIUM,NEGATIVE,Y,WASTE_MANAGEMENT,,LOW,Rule-based classification using predefined keyword conditions.
+MSG003,"There is a strong chemical smell in the meeting room, and several employees have complained about feeling unwell.",AIR_QUALITY,HIGH,NEGATIVE,Y,HEALTH_AND_SAFETY,Potential workplace health risk requires prompt assessment.,LOW,Rule-based classification using predefined keyword conditions.

@@ -1,0 +1,31 @@
+message_id,message,raw_response,parse_error,issue_category,urgency,sentiment,followup_required,recommended_team,escalation_reason,data_sensitivity_risk,brief_summary,json_valid,required_fields_ok,permitted_values_ok,text_fields_ok,invalid_fields,validation_pass
+MSG001,"The air conditioning is running overnight in an empty office on Level 3, even though nobody is using the space.","{
+  ""issue_category"": ""AIR_QUALITY"",
+  ""urgency"": ""MEDIUM"",
+  ""sentiment"": ""NEUTRAL"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""HEALTH_AND_SAFETY"",
+  ""escalation_reason"": """",
+  ""data_sensitivity_risk"": ""LOW"",
+  ""brief_summary"": ""Employee reports that air conditioning is running overnight in an empty office on Level 3.""
+}",,AIR_QUALITY,MEDIUM,NEUTRAL,Y,HEALTH_AND_SAFETY,,LOW,Employee reports that air conditioning is running overnight in an empty office on Level 3.,True,True,True,True,,True
+MSG002,"The recycling bins on the ground floor are repeatedly contaminated with general waste, and the problem has not been addressed.","{
+  ""issue_category"": ""WASTE_MANAGEMENT"",
+  ""urgency"": ""MEDIUM"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""SUSTAINABILITY"",
+  ""escalation_reason"": """",
+  ""data_sensitivity_risk"": ""LOW"",
+  ""brief_summary"": ""The recycling bins on the ground floor are repeatedly contaminated with general waste, and the problem has not been addressed.""
+}",,WASTE_MANAGEMENT,MEDIUM,NEGATIVE,Y,SUSTAINABILITY,,LOW,"The recycling bins on the ground floor are repeatedly contaminated with general waste, and the problem has not been addressed.",True,True,True,True,,True
+MSG003,"There is a strong chemical smell in the meeting room, and several employees have complained about feeling unwell.","{
+  ""issue_category"": ""AIR_QUALITY"",
+  ""urgency"": ""HIGH"",
+  ""sentiment"": ""NEGATIVE"",
+  ""followup_required"": ""Y"",
+  ""recommended_team"": ""HEALTH_AND_SAFETY"",
+  ""escalation_reason"": """",
+  ""data_sensitivity_risk"": ""LOW"",
+  ""brief_summary"": ""Employees report a strong chemical smell in the meeting room, causing several individuals to feel unwell.""
+}",,AIR_QUALITY,HIGH,NEGATIVE,Y,HEALTH_AND_SAFETY,,LOW,"Employees report a strong chemical smell in the meeting room, causing several individuals to feel unwell.",True,True,True,True,,True
